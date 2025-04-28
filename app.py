@@ -10,6 +10,22 @@ st.subheader("Primera Sección: El anime")
 image1 = Image.open('naruto.jpg')  # Cambia 'imagen1.png' por el nombre de tu archivo
 st.image(image1, caption="Aqui puse una imagen de uno de mis animes favoritos", width=600)
 
+page_style = """
+<style>
+/* Fondo principal */
+[data-testid="stAppViewContainer"] {
+    background-color: #d6ffd6;
+}
+
+/* Color de todos los textos */
+[data-testid="stMarkdownContainer"] {
+    color: #031903;
+}
+</style>
+"""
+
+st.markdown(page_style, unsafe_allow_html=True)
+
 # Segunda sección con subtítulo e imagen
 st.subheader("Segunda Sección: Los musicales")
 image2 = Image.open('broadway.jpg')  # Cambia 'imagen2.png' por el nombre de tu archivo
