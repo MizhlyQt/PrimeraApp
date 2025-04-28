@@ -14,12 +14,12 @@ page_style = """
 <style>
 /* Fondo principal */
 [data-testid="stAppViewContainer"] {
-    background-color: #d9e0ff;
+    background-color: #000b3c;
 }
 
 /* Color de todos los textos */
 [data-testid="stMarkdownContainer"] {
-    color: #040e39;
+    color: #edeff7;
 }
 </style>
 """
