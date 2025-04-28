@@ -1,6 +1,0 @@
-[theme]
-primaryColor = "#FF5733"  # Cambia al color principal que quieras
-backgroundColor = "#F4F4F4"  # Color del fondo de la página
-secondaryBackgroundColor = "#FFFFFF"  # Color del fondo de las barras laterales
-textColor = "#333333"  # Color del texto
-font = "sans serif"  # Cambia la fuente: "sans serif", "serif", o "monospace"
