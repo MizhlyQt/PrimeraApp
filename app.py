@@ -2,14 +2,17 @@ import streamlit as st
 from PIL import Image
 
 # Título de la aplicación
-st.title("Mi Primera App ")
+st.title("Mi Aplicación con Subtítulos e Imágenes")
 
-# Subtítulo e imagen 1
+# Primera sección con subtítulo e imagen
 st.subheader("Primera Sección: Un Inicio Inspirador")
-st.image("naruto.jpg", caption="Esta es la primera imagen", use_container_width=True)
+image1 = Image.open('naruto.jpg')  # Cambia 'imagen1.png' por el nombre de tu archivo
+st.image(image1, caption="Esta es la primera imagen", width=600)
 
-# Subtítulo e imagen 2
+# Segunda sección con subtítulo e imagen
 st.subheader("Segunda Sección: Explorando Nuevos Horizontes")
-st.image("broadway.jpg", caption="Aquí exploramos algo nuevo", use_container_width=True)
+image2 = Image.open('broadway.jpg')  # Cambia 'imagen2.png' por el nombre de tu archivo
+st.image(image2, caption="Aquí exploramos algo nuevo", width=600)
+
 
 
